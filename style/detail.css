@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    
+}
+
+img {
+    width: 250px;
+   
+    margin-left: 200px;
+}
+
+h1 {
+    border : 2px solid gold;
+    text-align: center;
+    font-family: verdana;
+    font-size: 40px;
+    color :white;
+}
+
+td {
+    padding : 0;
+    font-size: 20px;
+    color : white;
+    font-weight: bold;
+    width : 50px;
+   
+}
+.tiket{
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 100px;
+    cursor: pointer;
+}
+input{
+    height:25px
+}
+
+input[type=submit]:hover{
+    opacity: 70%;
+}
+
+input[type=submit]{
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    border:none
+}
+

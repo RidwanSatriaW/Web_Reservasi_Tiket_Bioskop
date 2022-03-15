@@ -1,0 +1,70 @@
+body{
+    background-color: #2C2E43;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+input[type=submit]{
+    background-color: #FFd523;
+    border-radius: 5px;
+    height: 27px;
+    width: 250px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+input{
+    background-color: #cdcad0;
+    /* opacity: 10%; */
+    border: none;
+    border-radius: 5px;
+    height: 27px;
+    width: 250px;
+    
+}
+
+input::-webkit-input-placeholder{
+    color: #B2B1B9;
+}
+.boxLogin{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 350px;
+    margin: 7% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.content{
+    padding: 50px 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image{
+   width : 300px;
+   box-sizing: border-box;
+}
+
+.image:hover{
+    opacity: 50%
+}
+
+.contentAboutUs{
+    width: 700px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.contentAboutUs p{
+    font-size: 20px;
+    
+}
+.img-AboutUs table{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top:20px;
+}
+
+
+

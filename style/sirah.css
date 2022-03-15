@@ -1,0 +1,70 @@
+body{
+    color: #FFF ;
+    padding :0;
+    margin : 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+    margin : -25px 0 3px 0} 
+
+a:visited, a{
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover, a:active{
+    text-decoration: none;
+    color: #FFd523;
+}
+.Nav li{
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.Nav li.login{
+    float: right;
+    list-style-type: none;
+    
+}
+.nav-foot {
+    float: left;
+}
+.subscribe{
+    float: right;
+    width: 300px;
+}
+.logo-foot{
+    float: left;
+    width: 300px;
+}
+input[type=submit]{
+    border: none;
+    background-color: #FFd523;
+}
+input[type=submit]:hover{
+    border: none;
+    background-color: #bda229;
+}
+
+.nav-foot li{
+    margin:0;
+}
+
+.pilihGenre{
+    background-color: #161620;
+    color: #FFF;
+    border-style: none;
+    font-size: 20px;
+}
+.subscribe{
+    width: 450px;
+}
+input[type=text]{
+    width: 200px;
+}
+.subscribe input[type=submit]{
+    width: 150px;
+    border-radius: 20px;
+}
